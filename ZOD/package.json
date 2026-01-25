@@ -1,10 +1,10 @@
 {
-  "name": "NODE-JS-GEMINI",
+  "name": "zod",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node --env-file=.env index.js",
+    "start": "node --env-file=.env agent-tool.js",
     "run": "node --env-file=.env",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,8 +13,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@ai-sdk/google": "^3.0.13",
     "@google/generative-ai": "^0.24.1",
+    "ai": "^6.0.49",
+    "axios": "^1.13.2",
     "dotenv": "^17.2.3",
-    "fs": "^0.0.1-security"
+    "zod": "^4.3.6"
   }
 }
